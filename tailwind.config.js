@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ["./src/**/*.{ts,tsx}", "index.html"],
+	content: ["./src/**/*.{ts,tsx}"],
 	theme: {
 		colors: {
 			"purple-950": "#050012",
@@ -10,7 +10,8 @@ export default {
 			"pink-400": "#EC86EE",
 			white: "#f0f0f0",
 			black: "#161616",
-			gray: "#9E9E9E"
+			gray: "#9E9E9E",
+			"gray-900": "#252525"
 		},
 		fontFamily: {
 			serif: "'Source Serif 4', serif",
