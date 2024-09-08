@@ -1,7 +1,7 @@
 import ContentContainer from "./components/ContentContainer"
 import HeadingComponent from "./components/HeadingComponent"
-import ProfileGrid from "./components/ProfileGrid"
-import ProjectsGrid from "./components/ProjectsGrid"
+import ProfileGrid from "./components/profile-section/ProfileGrid"
+import ProjectsGrid from "./components/projects-section/ProjectsGrid"
 
 function App() {
 	return (

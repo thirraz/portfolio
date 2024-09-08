@@ -1,8 +1,8 @@
+import { FaUser } from "react-icons/fa"
 import { IoChatbubble, IoCodeSlashOutline } from "react-icons/io5"
 import ProfileCard from "./ProfileCardComponent"
-import ProfilePic from "./ProfilePicComponent"
-import { FaUser } from "react-icons/fa"
-import GridContainer from "./GridContainer"
+import ProfilePicComponent from "./ProfilePicComponent"
+import GridContainer from "../GridContainer"
 
 const profileInfos = [
 	{
@@ -34,7 +34,7 @@ function ProfileGrid() {
 				/>
 			))}
 
-			<ProfilePic className="place-self-center row-start-1 md:col-start-3 md:row-start-2 " />
+			<ProfilePicComponent className="place-self-center row-start-1 md:col-start-3 md:row-start-2 " />
 		</GridContainer>
 	)
 }

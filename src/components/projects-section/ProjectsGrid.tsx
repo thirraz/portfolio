@@ -1,4 +1,4 @@
-import GridContainer from "./GridContainer"
+import GridContainer from "../GridContainer"
 
 function ProjectsGrid() {
 	return (

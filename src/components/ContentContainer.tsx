@@ -3,9 +3,7 @@ type Props = { children: React.ReactNode }
 function ContentContainer({ children }: Props) {
 	return (
 		<>
-			<div className="px-3 md:px-0 max-w-[1300px] mx-auto space-y-8">
-				{children}
-			</div>
+			<div className="px-2 max-w-[1300px] mx-auto space-y-8">{children}</div>
 		</>
 	)
 }
