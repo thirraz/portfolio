@@ -1,6 +1,7 @@
 import ContentContainer from "./components/ContentContainer"
 import Heading from "./components/Heading"
 import ProfileGrid from "./components/ProfileGrid"
+import ProjectsGrid from "./components/ProjectsGrid"
 
 function App() {
 	return (
@@ -8,6 +9,7 @@ function App() {
 			<ContentContainer>
 				<Heading />
 				<ProfileGrid />
+				<ProjectsGrid />
 			</ContentContainer>
 		</div>
 	)
