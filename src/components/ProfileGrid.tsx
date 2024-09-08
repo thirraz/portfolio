@@ -1,6 +1,6 @@
 import { IoChatbubble, IoCodeSlashOutline } from "react-icons/io5"
-import ProfileCard from "./ProfileCard"
-import ProfilePic from "./ProfilePic"
+import ProfileCard from "./ProfileCardComponent"
+import ProfilePic from "./ProfilePicComponent"
 import { FaUser } from "react-icons/fa"
 import GridContainer from "./GridContainer"
 

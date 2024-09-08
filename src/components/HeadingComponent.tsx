@@ -1,6 +1,6 @@
-import Skills from "./Skills"
+import Skills from "./SkillsComponent"
 
-function Heading() {
+function HeadingComponent() {
 	return (
 		<div className="text-white">
 			<h1 className="font-serif text-[clamp(2rem,10vw,4rem)] font-semibold italic">
@@ -12,4 +12,4 @@ function Heading() {
 	)
 }
 
-export default Heading
+export default HeadingComponent

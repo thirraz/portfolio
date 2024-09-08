@@ -3,7 +3,7 @@ import { RiTailwindCssFill } from "react-icons/ri"
 import { SiTypescript } from "react-icons/si"
 import { TbBrandFramerMotion } from "react-icons/tb"
 
-function Skills() {
+function SkillsComponent() {
 	return (
 		<div className="flex gap-3 items-center">
 			<p className="text-gray text-lg">Front-end Developer</p>
@@ -18,4 +18,4 @@ function Skills() {
 	)
 }
 
-export default Skills
+export default SkillsComponent

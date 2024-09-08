@@ -6,7 +6,7 @@ type Props = {
 	className: string
 }
 
-function ProfileCard({ title, icon, className }: Props) {
+function ProfileCardComponent({ title, icon, className }: Props) {
 	return (
 		<div
 			className={twMerge(
@@ -22,4 +22,4 @@ function ProfileCard({ title, icon, className }: Props) {
 	)
 }
 
-export default ProfileCard
+export default ProfileCardComponent
