@@ -18,9 +18,8 @@ function ProjectComponent({ src, className, link }: Props) {
 					"h-64 rounded-xl bg-center bg-cover hover:border-b hover:border-white hover:-translate-y-2 duration-200",
 					className
 				)}
-				onMouseEnter={() => console.log("enter!")}
-				onMouseLeave={() => console.log("leave!")}
-			></a>
+				onClick={() => console.log("clicked!")}
+			/>
 		</>
 	)
 }
