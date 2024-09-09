@@ -10,7 +10,7 @@ function ProfileCardComponent({ title, icon, className }: Props) {
 	return (
 		<div
 			className={twMerge(
-				"text-xl h-56 rounded-xl hover:border-b hover:border-white hover:-translate-y-2 duration-200 hover:cursor-pointer",
+				"text-xl h-56 rounded-xl hover:-translate-y-2 duration-200 hover:cursor-pointer",
 				className
 			)}
 		>

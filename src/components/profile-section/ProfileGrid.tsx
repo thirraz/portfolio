@@ -34,7 +34,7 @@ function ProfileGrid() {
 				/>
 			))}
 
-			<ProfilePicComponent className="place-self-center row-start-1 md:col-start-3 md:row-start-2 " />
+			<ProfilePicComponent />
 		</GridContainer>
 	)
 }

@@ -1,14 +1,9 @@
-import { twMerge } from "tailwind-merge"
 import profilePic from "../../assets/imgs/profile_pic.jpeg"
 
-type Props = {
-	className?: string
-}
-
-function ProfilePicComponent({ className }: Props) {
+function ProfilePicComponent() {
 	return (
 		<img
-			className={twMerge("rounded-full object-cover w-56 h-56", className)}
+			className="relative rounded-full object-cover w-56 h-56 place-self-center row-start-1 md:col-start-3 md:row-start-2"
 			src={profilePic}
 			alt="Thiago Souza's profile pic"
 		/>
