@@ -1,6 +1,7 @@
 import AboutMe from "./components/AboutMe"
+import Contact from "./components/Contact"
 import ContentContainer from "./components/ContentContainer"
-import HeadingComponent from "./components/HeadingComponent"
+import HeadingComponent from "./components/profile-section/HeadingComponent"
 import ProfileGrid from "./components/profile-section/ProfileGrid"
 import ProjectsGrid from "./components/projects-section/ProjectsGrid"
 
@@ -12,6 +13,7 @@ function App() {
 				<ProfileGrid />
 				<ProjectsGrid />
 				<AboutMe />
+				<Contact />
 			</ContentContainer>
 		</div>
 	)
