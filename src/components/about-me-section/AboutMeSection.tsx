@@ -1,6 +1,6 @@
-import AnimatedBorder from "./AnimatedBorder"
+import AnimatedBorder from "../AnimatedBorder"
 
-function AboutMe() {
+function AboutMeSection() {
 	return (
 		<AnimatedBorder>
 			<h2 className="font-serif leading-[3.1rem] md:leading-[3.5rem] text-[clamp(2rem,7vw,3rem)]">
@@ -14,4 +14,4 @@ function AboutMe() {
 	)
 }
 
-export default AboutMe
+export default AboutMeSection

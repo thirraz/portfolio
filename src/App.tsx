@@ -1,6 +1,6 @@
-import AboutMe from "./components/AboutMe"
-import Contact from "./components/Contact"
-import ContentContainer from "./components/ContentContainer"
+import AboutMeSection from "./components/about-me-section/AboutMeSection"
+import ContactSection from "./components/contact-section/ContactSection"
+import ContentContainer from "./components/containers/ContentContainer"
 import HeadingComponent from "./components/profile-section/HeadingComponent"
 import ProfileGrid from "./components/profile-section/ProfileGrid"
 import ProjectsGrid from "./components/projects-section/ProjectsGrid"
@@ -12,8 +12,8 @@ function App() {
 				<HeadingComponent />
 				<ProfileGrid />
 				<ProjectsGrid />
-				<AboutMe />
-				<Contact />
+				<AboutMeSection />
+				<ContactSection />
 			</ContentContainer>
 		</div>
 	)

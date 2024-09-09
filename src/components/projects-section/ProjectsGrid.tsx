@@ -1,4 +1,4 @@
-import GridContainer from "../GridContainer"
+import GridContainer from "../containers/GridContainer"
 import ProjectComponent from "./ProjectComponent"
 
 import theWildOasis from "../../assets/projects_covers/the-wild-oasis.jpg"

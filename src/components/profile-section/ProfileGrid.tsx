@@ -2,7 +2,7 @@ import { FaUser } from "react-icons/fa"
 import { IoChatbubble, IoCodeSlashOutline } from "react-icons/io5"
 import ProfileCard from "./ProfileCardComponent"
 import ProfilePicComponent from "./ProfilePicComponent"
-import GridContainer from "../GridContainer"
+import GridContainer from "../containers/GridContainer"
 
 const profileInfos = [
 	{
