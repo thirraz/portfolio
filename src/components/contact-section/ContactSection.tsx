@@ -1,4 +1,4 @@
-import { FaLinkedinIn } from "react-icons/fa"
+import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 import AnimatedBorder from "../AnimatedBorder"
 import ContactButtonComponent from "./ContactButtonComponent"
 import { IoLogoInstagram } from "react-icons/io5"
@@ -7,7 +7,7 @@ import { FaBluesky } from "react-icons/fa6"
 function ContactSection() {
 	return (
 		<AnimatedBorder
-			cardWrapperClassName="h-[550px] md:h-[400px]"
+			cardWrapperClassName="h-[580px] md:h-[400px]"
 			cardContentClassName="text-center md:text-left"
 		>
 			<h2 className="font-serif flex-1 font-semibold text-[clamp(1.8rem,4vw,2.5rem)] leading-[3.3rem] md:leading-[3.5rem]">
@@ -32,6 +32,10 @@ function ContactSection() {
 				<ContactButtonComponent>
 					<FaBluesky />
 					<span>@thirraz.bsky.social</span>
+				</ContactButtonComponent>
+				<ContactButtonComponent>
+					<FaGithub />
+					<span>/thirraz</span>
 				</ContactButtonComponent>
 			</div>
 		</AnimatedBorder>
