@@ -2,7 +2,7 @@ function AboutMe() {
 	return (
 		<div className="card-wrapper max-w-[1200px] h-[400px] text-white">
 			<div className="card-content text-center md:text-left flex flex-col gap-y-5 md:gap-0 md:flex-row items-center justify-center">
-				<h2 className="font-serif leading-[3.1rem] text-[clamp(2rem,7vw,3rem)]">
+				<h2 className="font-serif leading-[3.1rem] md:leading-[3.5rem] text-[clamp(2rem,7vw,3rem)]">
 					Hi! I’m Thiago, a Front-end developoer located in São Paulo,
 					Brazil.
 				</h2>
