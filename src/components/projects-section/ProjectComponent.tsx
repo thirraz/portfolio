@@ -19,6 +19,7 @@ function ProjectComponent({ src, className, link, description }: Props) {
 				{description}
 			</div>
 			<a
+				target="_blank"
 				href={link}
 				style={{ backgroundImage: `url(${src})` }}
 				className={twMerge(
