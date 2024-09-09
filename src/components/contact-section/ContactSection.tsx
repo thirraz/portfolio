@@ -14,7 +14,7 @@ function ContactSection() {
 				If you liked my profile and want me to be part of your team, here is
 				how you can contact me. Thanks in advance!
 			</h2>
-			<div className="flex flex-1 flex-wrap gap-4 pb-4 justify-center">
+			<div className="flex flex-1 flex-wrap gap-4 pb-4 justify-center items-center">
 				<ContactButtonComponent>
 					<span>thiagofernandosouza20@gmail.com</span>
 				</ContactButtonComponent>
