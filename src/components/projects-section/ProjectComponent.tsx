@@ -5,12 +5,19 @@ type Props = {
 	src: string
 	className?: string
 	link: string
+	description: string
 }
 
-function ProjectComponent({ src, className, link }: Props) {
-	const [isMouseOnProjectCard, setisMouseOnProjectCard] = useState(false)
+function ProjectComponent({ src, className, link, description }: Props) {
+	const [isVisible, setIsVisible] = useState(false)
 	return (
 		<>
+			<div
+				className="data-[isVisible=true]:fixed data-[isVisible=false]:hidden px-8 py-3 text-black bg-white top-2 left-1/2 -translate-x-1/2 z-50 duration-200 rounded-lg shadow-md text-center"
+				data-isVisible={isVisible}
+			>
+				{description}
+			</div>
 			<a
 				href={link}
 				style={{ backgroundImage: `url(${src})` }}
@@ -18,7 +25,8 @@ function ProjectComponent({ src, className, link }: Props) {
 					"h-64 rounded-xl bg-center bg-cover hover:border-b hover:border-white hover:-translate-y-2 duration-200",
 					className
 				)}
-				onClick={() => console.log("clicked!")}
+				onMouseEnter={() => setIsVisible(true)}
+				onMouseLeave={() => setIsVisible(false)}
 			/>
 		</>
 	)
