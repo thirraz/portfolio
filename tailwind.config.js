@@ -11,11 +11,24 @@ export default {
 			white: "#f0f0f0",
 			black: "#161616",
 			gray: "#9E9E9E",
-			"gray-900": "#252525"
+			"gray-900": "#252525",
+			"gray-950": "#110D1D"
 		},
 		fontFamily: {
 			serif: "'Source Serif 4', serif",
 			sans: "'Nunito Sans', sans-serif"
+		},
+		extend: {
+			keyframes: {
+				"border-spin": {
+					"100%": {
+						transform: "rotate(-360deg)"
+					}
+				}
+			},
+			animation: {
+				"border-spin": "border-spin 9s linear infinite"
+			}
 		}
 	},
 	plugins: []
