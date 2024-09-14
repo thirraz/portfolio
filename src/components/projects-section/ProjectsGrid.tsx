@@ -37,7 +37,7 @@ const projectsInfo = [
 
 function ProjectsGrid() {
 	return (
-		<>
+		<div id="projects">
 			<GridContainer className=" md:[grid-template-columns:1fr_15rem_1fr] border mt-20  z-20">
 				{projectsInfo.map(({ link, src, className, description }, i) => (
 					<ProjectComponent
@@ -49,7 +49,7 @@ function ProjectsGrid() {
 					/>
 				))}
 			</GridContainer>
-		</>
+		</div>
 	)
 }
 

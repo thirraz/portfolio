@@ -8,26 +8,30 @@ const profileInfos = [
 	{
 		title: "projects",
 		icon: <IoCodeSlashOutline />,
-		className: "text-black bg-white"
+		className: "text-black bg-white",
+		link: "http://localhost:5173#projects"
 	},
 	{
 		title: "about me",
 		icon: <FaUser />,
-		className: "md:col-span-2 text-white bg-gray-900"
+		className: "md:col-span-2 text-white bg-gray-900",
+		link: "http://localhost:5173#about-me"
 	},
 	{
 		title: "contact",
 		icon: <IoChatbubble />,
-		className: "md:col-span-2 bg-purple-500 text-pink-400 flex items-end"
+		className: "md:col-span-2 bg-purple-500 text-pink-400 flex items-end",
+		link: "http://localhost:5173#contact"
 	}
 ]
 
 function ProfileGrid() {
 	return (
 		<GridContainer>
-			{profileInfos.map(({ title, icon, className }, i) => (
+			{profileInfos.map(({ link, title, icon, className }, i) => (
 				<ProfileCard
 					key={i}
+					link={link}
 					title={title}
 					icon={icon}
 					className={className}

@@ -4,11 +4,13 @@ type Props = {
 	title: string
 	icon: React.ReactNode
 	className: string
+	link: string
 }
 
-function ProfileCardComponent({ title, icon, className }: Props) {
+function ProfileCardComponent({ link, title, icon, className }: Props) {
 	return (
-		<div
+		<a
+			href={link}
 			className={twMerge(
 				"text-xl h-56 rounded-xl hover:-translate-y-2 duration-200 hover:cursor-pointer",
 				className
@@ -18,7 +20,7 @@ function ProfileCardComponent({ title, icon, className }: Props) {
 				<p className="tracking-wide">{title}</p>
 				<span>{icon}</span>
 			</div>
-		</div>
+		</a>
 	)
 }
 
