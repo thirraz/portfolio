@@ -24,10 +24,16 @@ export default {
 					"100%": {
 						transform: "rotate(-360deg)"
 					}
+				},
+				"move-text": {
+					"100%": {
+						transform: "translateX(-50%)"
+					}
 				}
 			},
 			animation: {
-				"border-spin": "border-spin 9s linear infinite"
+				"border-spin": "border-spin 9s linear infinite",
+				marquee: "move-text 7s linear infinite"
 			}
 		}
 	},

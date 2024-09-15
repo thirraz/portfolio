@@ -12,13 +12,21 @@ function ProfileCardComponent({ link, title, icon, className }: Props) {
 		<a
 			href={link}
 			className={twMerge(
-				"text-xl h-56 rounded-xl hover:-translate-y-2 duration-200 hover:cursor-pointer",
+				"profile-card max-w-full text-xl h-56 rounded-xl hover:-translate-y-2 duration-200 hover:cursor-pointer overflow-clip relative",
 				className
 			)}
 		>
 			<div className="flex items-center justify-between px-8 py-5 w-full">
 				<p className="tracking-wide">{title}</p>
 				<span>{icon}</span>
+			</div>
+			<div className="hidden-text absolute top-1/3 hidden gap-4 pl-4 text-4xl md:text-6xl min-w-max animate-marquee italic">
+				<p>{title}</p>
+				<p>{title}</p>
+				<p>{title}</p>
+				<p aria-hidden="true">{title}</p>
+				<p aria-hidden="true">{title}</p>
+				<p aria-hidden="true">{title}</p>
 			</div>
 		</a>
 	)

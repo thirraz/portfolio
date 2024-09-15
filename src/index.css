@@ -16,6 +16,10 @@
 		color: #161616;
 		background-color: #f0f0f0;
 	}
+
+	.profile-card:hover > .hidden-text {
+		display: flex;
+	}
 }
 
 @layer utilities {
