@@ -4,6 +4,37 @@ import ContactButtonComponent from "./ContactButtonComponent"
 import { IoLogoInstagram } from "react-icons/io5"
 import { FaBluesky } from "react-icons/fa6"
 
+const contactLinks = [
+	{
+		title: "thiagofernandosouza20@gmail.com",
+		link: "mailto:thiagofernandosouza20@gmail.com"
+	},
+	{
+		title: "+55 11 99398-5592",
+		link: "https://wa.me//5511993985592?text=Ol%C3%A1%20Thiago!"
+	},
+	{
+		title: "@thirraz",
+		link: "https://www.instagram.com/thirrazz/",
+		icon: <IoLogoInstagram />
+	},
+	{
+		title: "Thiago Morais",
+		link: "https://www.linkedin.com/in/thiago-morais-b00b84221/",
+		icon: <FaLinkedinIn />
+	},
+	{
+		title: "@thirraz.bsky.social",
+		link: "https://bsky.app/profile/thirraz.bsky.social",
+		icon: <FaBluesky />
+	},
+	{
+		title: "/thirraz",
+		link: "https://github.com/thirraz",
+		icon: <FaGithub />
+	}
+]
+
 function ContactSection() {
 	return (
 		<div id="contact">
@@ -16,7 +47,7 @@ function ContactSection() {
 					is how you can contact me. Thanks in advance!
 				</h2>
 				<div className="flex flex-1 flex-wrap gap-4 pb-4 justify-center items-center">
-					<ContactButtonComponent>
+					{/* <ContactButtonComponent>
 						<span>thiagofernandosouza20@gmail.com</span>
 					</ContactButtonComponent>
 					<ContactButtonComponent>
@@ -37,7 +68,15 @@ function ContactSection() {
 					<ContactButtonComponent>
 						<FaGithub />
 						<span>/thirraz</span>
-					</ContactButtonComponent>
+					</ContactButtonComponent> */}
+
+					{contactLinks.map(({ link, title, icon }) => (
+						<ContactButtonComponent
+							link={link}
+							title={title}
+							icon={icon}
+						/>
+					))}
 				</div>
 			</AnimatedBorder>
 		</div>
