@@ -17,13 +17,8 @@
 		background-color: #f0f0f0;
 	}
 
-	.hidden-text {
-		transform: translateY(100%);
-	}
 	.profile-card:hover > .hidden-text {
 		display: flex;
-		transform: translateY(50%);
-		transition: transform 1s ease-in-out;
 	}
 
 	.profile-card:hover > .item-title {
