@@ -9,19 +9,19 @@ const profileInfos = [
 		title: "projects",
 		icon: <IoCodeSlashOutline />,
 		className: "text-black bg-white",
-		link: "http://localhost:5173#projects"
+		link: "https://thiagomorais.netlify.app/#projects"
 	},
 	{
 		title: "about me",
 		icon: <FaUser />,
 		className: "md:col-span-2 text-white bg-gray-900",
-		link: "http://localhost:5173#about-me"
+		link: "https://thiagomorais.netlify.app/#about-me"
 	},
 	{
 		title: "contact",
 		icon: <IoChatbubble />,
 		className: "md:col-span-2 bg-purple-500 text-pink-400 flex items-end",
-		link: "http://localhost:5173#contact"
+		link: "https://thiagomorais.netlify.app/#contact"
 	}
 ]
 
