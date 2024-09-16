@@ -20,7 +20,7 @@ function ProfileCardComponent({ link, title, icon, className }: Props) {
 				<p className="tracking-wide">{title}</p>
 				<span>{icon}</span>
 			</div>
-			<div className="hidden-text absolute top-1/3 hidden gap-4 pl-4 text-4xl md:text-5xl min-w-max animate-marquee italic">
+			<div className="hidden-text absolute hidden gap-4 pl-4 text-4xl md:text-5xl min-w-max animate-marquee italic">
 				<p aria-hidden="true">{title}</p>
 				<p aria-hidden="true">{title}</p>
 				<p aria-hidden="true">{title}</p>
