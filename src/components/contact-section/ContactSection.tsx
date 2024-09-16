@@ -10,10 +10,6 @@ const contactLinks = [
 		link: "mailto:thiagofernandosouza20@gmail.com"
 	},
 	{
-		title: "+55 11 99398-5592",
-		link: "https://wa.me//5511993985592?text=Ol%C3%A1%20Thiago!"
-	},
-	{
 		title: "@thirraz",
 		link: "https://www.instagram.com/thirrazz/",
 		icon: <IoLogoInstagram />
