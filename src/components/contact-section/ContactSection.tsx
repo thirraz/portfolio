@@ -3,6 +3,7 @@ import AnimatedBorder from "../AnimatedBorder"
 import ContactButtonComponent from "./ContactButtonComponent"
 import { IoLogoInstagram } from "react-icons/io5"
 import { FaBluesky } from "react-icons/fa6"
+import { useTranslation } from "react-i18next"
 
 const contactLinks = [
 	{
@@ -36,6 +37,8 @@ const contactLinks = [
 ]
 
 function ContactSection() {
+	const { t: translate } = useTranslation()
+
 	return (
 		<section id="contact">
 			<AnimatedBorder
@@ -43,8 +46,7 @@ function ContactSection() {
 				cardContentClassName="text-center md:text-left"
 			>
 				<h2 className="font-serif flex-1 font-semibold text-[clamp(1.8rem,4vw,2.5rem)] leading-[3.3rem] md:leading-[3.5rem]">
-					If you liked my profile and want me to be part of your team, here
-					is how you can contact me. Thanks in advance!
+					{translate("contactTitle")}
 				</h2>
 				<div className="flex flex-1 flex-wrap gap-4 pb-4 justify-center items-center">
 					{contactLinks.map(({ link, title, icon }) => (
