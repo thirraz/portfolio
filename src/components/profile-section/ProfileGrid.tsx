@@ -3,23 +3,22 @@ import { IoChatbubble, IoCodeSlashOutline } from "react-icons/io5"
 import ProfileCard from "./ProfileCardComponent"
 import ProfilePicComponent from "./ProfilePicComponent"
 import GridContainer from "../containers/GridContainer"
-import i18next from "i18next"
 
 const profileInfos = () => [
 	{
-		title: i18next.t("projectsCard"),
+		title: "projetos",
 		icon: <IoCodeSlashOutline />,
 		className: "text-black bg-white",
 		link: "https://thiagomorais.netlify.app/#projects"
 	},
 	{
-		title: i18next.t("aboutMeCard"),
+		title: "sobre mim",
 		icon: <FaUser />,
 		className: "md:col-span-2 text-white bg-gray-900",
 		link: "https://thiagomorais.netlify.app/#about-me"
 	},
 	{
-		title: i18next.t("projectsCard"),
+		title: "contato",
 		icon: <IoChatbubble />,
 		className: "md:col-span-2 bg-purple-500 text-pink-400 flex items-end",
 		link: "https://thiagomorais.netlify.app/#contact"

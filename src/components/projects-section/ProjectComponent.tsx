@@ -13,8 +13,8 @@ function ProjectComponent({ src, className, link, description }: Props) {
 	return (
 		<>
 			<div
-				className="data-[isVisible=true]:fixed data-[isVisible=false]:hidden w-full md:w-auto px-8 py-3 text-black bg-white top-2 left-1/2 -translate-x-1/2 z-50 duration-200 rounded-lg shadow-lg text-center text-lg "
-				data-isVisible={isVisible}
+				data-isvisible={isVisible}
+				className="data-[isvisible=true]:fixed data-[isvisible=false]:hidden w-full md:w-auto px-8 py-3 text-black bg-white top-2 left-1/2 -translate-x-1/2 z-50 duration-200 rounded-lg shadow-lg text-center text-lg "
 			>
 				{description}
 			</div>
