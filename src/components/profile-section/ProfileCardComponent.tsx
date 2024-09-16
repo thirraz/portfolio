@@ -16,14 +16,14 @@ function ProfileCardComponent({ link, title, icon, className }: Props) {
 				className
 			)}
 		>
-			<div className="flex items-center justify-between px-8 py-5 w-full">
+			<div className="item-title flex items-center justify-between px-8 py-5 w-full">
 				<p className="tracking-wide">{title}</p>
 				<span>{icon}</span>
 			</div>
-			<div className="hidden-text absolute top-1/3 hidden gap-4 pl-4 text-4xl md:text-6xl min-w-max animate-marquee italic">
-				<p>{title}</p>
-				<p>{title}</p>
-				<p>{title}</p>
+			<div className="hidden-text absolute top-1/3 hidden gap-4 pl-4 text-4xl md:text-5xl min-w-max animate-marquee italic">
+				<p aria-hidden="true">{title}</p>
+				<p aria-hidden="true">{title}</p>
+				<p aria-hidden="true">{title}</p>
 				<p aria-hidden="true">{title}</p>
 				<p aria-hidden="true">{title}</p>
 				<p aria-hidden="true">{title}</p>

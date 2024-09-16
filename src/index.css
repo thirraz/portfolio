@@ -20,6 +20,11 @@
 	.profile-card:hover > .hidden-text {
 		display: flex;
 	}
+
+	.profile-card:hover > .item-title {
+		opacity: 0;
+		transition: opacity 0.1s ease-in-out;
+	}
 }
 
 @layer utilities {
