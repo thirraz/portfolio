@@ -47,29 +47,6 @@ function ContactSection() {
 					is how you can contact me. Thanks in advance!
 				</h2>
 				<div className="flex flex-1 flex-wrap gap-4 pb-4 justify-center items-center">
-					{/* <ContactButtonComponent>
-						<span>thiagofernandosouza20@gmail.com</span>
-					</ContactButtonComponent>
-					<ContactButtonComponent>
-						<span>+55 11 99398-5592</span>
-					</ContactButtonComponent>
-					<ContactButtonComponent>
-						<IoLogoInstagram />
-						<span>@thirraz</span>
-					</ContactButtonComponent>
-					<ContactButtonComponent>
-						<FaLinkedinIn />
-						<span>Thiago Morais</span>
-					</ContactButtonComponent>
-					<ContactButtonComponent>
-						<FaBluesky />
-						<span>@thirraz.bsky.social</span>
-					</ContactButtonComponent>
-					<ContactButtonComponent>
-						<FaGithub />
-						<span>/thirraz</span>
-					</ContactButtonComponent> */}
-
 					{contactLinks.map(({ link, title, icon }) => (
 						<ContactButtonComponent
 							link={link}
