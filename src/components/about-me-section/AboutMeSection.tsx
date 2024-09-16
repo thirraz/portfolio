@@ -2,7 +2,7 @@ import AnimatedBorder from "../AnimatedBorder"
 
 function AboutMeSection() {
 	return (
-		<div id="about-me">
+		<section id="about-me">
 			<AnimatedBorder>
 				<h2 className="font-serif font-semibold leading-[3.3rem] md:leading-[3.5rem] text-[clamp(2rem,7vw,3rem)]">
 					Hi! I&apos;m Thiago, a Front-end developer located in São Paulo,
@@ -13,7 +13,7 @@ function AboutMeSection() {
 					intuitive and engaging digital experiences.
 				</p>
 			</AnimatedBorder>
-		</div>
+		</section>
 	)
 }
 

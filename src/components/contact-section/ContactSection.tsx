@@ -37,7 +37,7 @@ const contactLinks = [
 
 function ContactSection() {
 	return (
-		<div id="contact">
+		<section id="contact">
 			<AnimatedBorder
 				cardWrapperClassName="h-[580px] md:h-[400px]"
 				cardContentClassName="text-center md:text-left"
@@ -56,7 +56,7 @@ function ContactSection() {
 					))}
 				</div>
 			</AnimatedBorder>
-		</div>
+		</section>
 	)
 }
 
