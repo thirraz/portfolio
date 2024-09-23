@@ -13,10 +13,10 @@
 		"profile": ["projects", "about me", "contact"],
 		"aboutMe": {
 			"title": "Hi! I'm Thiago, a Front-end developer currently located in São Paulo.",
-			"content": "With 2 years of experience, I created intuitive and moderns digital experiences using the latest market tech."
+			"content": "With 2 years of experience, I created intuitive and moderns digital experiences using the latest market techs."
 		},
 		"contact": {
-			"title": "If you liked my profile and believe that I can add to your team, here are my contact details. Thank you!"
+			"title": "If you liked my profile and believe that I can be a valuable member to your team, here are my contact details. Thanks in advance!"
 		}
 	}
 }
