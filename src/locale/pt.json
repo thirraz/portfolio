@@ -1,0 +1,22 @@
+{
+	"translation": {
+		"role": "Desenvolvedor Front-end",
+		"projects": [
+			"Uma aplicação interna para uma pequena boutique de hotel que checa a entrada e saída de clientes",
+
+			"Você precisa de peças para o seu carro, ou alguma ferramenta para consertá-lo? A Desert Global tem tudo isso e muito mais!",
+
+			"Uma plataforma de streaming com uma quantidade ENORME de filmes, por um preço acessível. Não perca mais dinheiro, inscreva-se na Huge Bobcat!",
+
+			"Uma Landing Page para uma agência de webdesign chamada Hopeway Design"
+		],
+		"profile": ["projetos", "sobre mim", "contato"],
+		"aboutMe": {
+			"title": "Olá! Eu sou o Thiago, um desenvolvedor Front-end que atualmente mora em São Paulo.",
+			"content": "Com 2 anos de experiência, eu criei experiências digitais intuitivas e modernas utilizando as principais tecnologias do mercado."
+		},
+		"contact": {
+			"title": "Caso tenha gostado do meu perfil e acredite que possa acrescentar no seu time, aqui estão os meus meios de contato. Obrigado desde já!"
+		}
+	}
+}
