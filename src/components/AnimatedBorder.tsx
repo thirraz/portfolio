@@ -14,7 +14,7 @@ function AnimatedBorder({
 	return (
 		<div
 			className={twMerge(
-				"card-wrapper max-w-[1200px] min-h-[600px] text-white",
+				"card-wrapper max-w-[1200px] min-h-[500px] md:min-h-[400px] text-white",
 				cardWrapperClassName
 			)}
 		>
